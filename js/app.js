@@ -1,7 +1,7 @@
 let estadoLicuadora = "apagada";
-let licuadora = document.getElementById("licuadora");
-let sonidoLicuadora = document.getElementById("licuadora-sonido");
-let sonidoBotonLicuadora = document.getElementById("licuadora-boton-sonido");
+const licuadora = document.getElementById("licuadora");
+const sonidoLicuadora = document.getElementById("licuadora-sonido");
+const sonidoBotonLicuadora = document.getElementById("licuadora-boton-sonido");
 
 function controlarLicuadora() {
     if (estadoLicuadora == "apagada") {
